@@ -1,0 +1,9 @@
+{
+	"LOGGING_ENABLED" : true,
+	"DISTRIBUTED" : true,
+	"NODE_MAP" : {
+		"MASTER" : "localhost:5000",
+		"NODE1" : "10.55.12.35:5000",
+		"NODE2" : "10.55.12.34:5000"
+	}
+}
