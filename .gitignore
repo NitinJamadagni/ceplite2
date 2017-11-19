@@ -3,3 +3,4 @@ Logs
 .settings
 /.project
 /.classpath
+/target/

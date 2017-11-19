@@ -8,8 +8,8 @@ public class Tester {
 
 	public static void main(String[] args) {
 		try {
-			
-			CEPManager manager = new CEPManager("C:\\Users\\njamadag\\eclipse-workspace\\CEPCore\\Configs\\configs.json");
+			String configFile = "C:\\Users\\njamadag\\eclipse-workspace\\CEPCore\\Configs\\configs.json";
+			CEPManager manager = new CEPManager(configFile);
 			manager.run();
 			
 		}catch(Exception e) {
